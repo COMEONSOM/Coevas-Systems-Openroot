@@ -1,0 +1,49 @@
+# ===============================
+# Node / Electron
+# ===============================
+node_modules/
+dist/
+build/
+out/
+release/
+win-unpacked/
+linux-unpacked/
+mac/
+*.exe
+*.msi
+*.dmg
+*.zip
+*.7z
+*.log
+
+# ===============================
+# Environment / Cache
+# ===============================
+.env
+.cache/
+.tmp/
+temp/
+tmp/
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Website Source Protection
+# ===============================
+# Do NOT push readable source JS
+script.js
+
+# Only push the obfuscated version:
+# script.obf.js  (this stays tracked)
+
+# ===============================
+# Optional: Source Maps (if you generate any)
+# ===============================
+*.map

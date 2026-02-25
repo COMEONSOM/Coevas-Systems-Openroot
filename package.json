@@ -1,0 +1,12 @@
+{
+  "name": "openroot-download-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Openroot Systems download page build tools (JS obfuscation)",
+  "scripts": {
+    "obfuscate:site": "npx javascript-obfuscator script.js --output script.obf.js --compact true --control-flow-flattening true --control-flow-flattening-threshold 1 --string-array true --string-array-encoding base64 --string-array-threshold 1 --dead-code-injection true --dead-code-injection-threshold 0.4 --self-defending true --disable-console-output true"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.2.2"
+  }
+}
