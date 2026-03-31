@@ -9,9 +9,9 @@
 }
 
 :root {
-  --bg-main: #0d1117;
+  --bg-main: #000000;
   --bg-surface: #161b22;
-  --bg-card: #161b22;
+  --bg-card: #1a1622;
   --border-subtle: #30363d;
   --border-default: #30363d;
   --text-main: #e6edf3;
@@ -552,12 +552,7 @@ header h1:hover {
   border-top-color: var(--border-subtle);
 }
 
-.older-list .version-item:hover {
-  background-color: rgba(177, 186, 196, 0.06);
-  border-color: #8b949e;
-  z-index: 1;
-  position: relative;
-}
+
 
 .older-list .version-item > div {
   max-width: 70%;
